@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="loading">
+      <img src="./loading.gif" alt="loading" />
+    </section>
+    <section class="single-pokemon">
+      <h2 class="pokemon-name"></h2>
+      <img src="" class="pokemon-img front-img" alt="" />
+      <img src="" class="pokemon-img back-img" alt="" />
+      <article class="pokemon-info">
+        <div>
+          <h3>sizes</h3>
+          <ul class="pokemon-info-sizes"></ul>
+        </div>
+        <div>
+          <h3>abilities</h3>
+          <ul class="pokemon-info-abilities"></ul>
+        </div>
+        <div>
+          <h3>types</h3>
+          <ul class="pokemon-info-types"></ul>
+        </div>
+        <div>
+          <h3>stats</h3>
+          <ul class="pokemon-info-stats"></ul>
+        </div>
+        <a href="index.html" class="btn">all pokemons</a>
+      </article>
+    </section>
+    <script type="module" src="./singlePokemon.js"></script>
+  </body>
+</html>
